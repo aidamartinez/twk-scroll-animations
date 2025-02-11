@@ -1,0 +1,5 @@
+@media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
+  [twk-aos] {
+    opacity: 0;
+  }
+}
