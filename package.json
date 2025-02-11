@@ -1,10 +1,14 @@
 {
   "name": "twk-scroll-animations",
   "description": "GSAP-powered scroll animations library",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aidamartinez/twk-scroll-animations.git"
+  },
   "exports": {
     ".": {
       "import": "./dist/index.js",
