@@ -17,10 +17,10 @@ npm install twk-scroll-animations gsap
 import twkScrollAnimations from 'twk-scroll-animations';
 
 // Initialize basic
-const scrollAnimations = new TWKScrollAnimations()
+const scrollAnimations = new twkScrollAnimations()
 
 // Initialize with optional custom breakpoints
-const scrollAnimations = new TWKScrollAnimations({
+const scrollAnimations = new twkScrollAnimations({
 screens: {
 xs: '480px',
 sm: '640px',
@@ -53,7 +53,7 @@ Animated content
 
 ## Adding Custom Animations
 ```javascript
-import TWKScrollAnimations, { gsapEffects } from 'twk-scroll-animations'
+import twkScrollAnimations, { gsapEffects } from 'twk-scroll-animations'
 
 // Add your custom animation before initializing
 gsapEffects.push({
@@ -70,7 +70,7 @@ gsapEffects.push({
 });
 
 // Initialize after adding custom animations
-const scrollAnimations = new TWKScrollAnimations();
+const scrollAnimations = new twkScrollAnimations();
 ```
 
 ## Animation Properties
