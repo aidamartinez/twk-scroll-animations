@@ -7,6 +7,11 @@ A GSAP-powered scroll animations library that makes it easy to add scroll-trigge
 npm install twk-scroll-animations gsap
 ```
 
+## Dependencies
+- [GSAP (GreenSock Animation Platform)](https://greensock.com/gsap/): Version ^3.0.0
+  - Required for powerful, high-performance animations
+  - Provides the core animation and ScrollTrigger functionality
+
 ## Usage
 ```javascript
 import twkScrollAnimations from 'twk-scroll-animations';
@@ -103,3 +108,13 @@ If JavaScript is disabled or not supported, the library gracefully falls back to
 - twk-aos-ease: Custom easing function
 - twk-aos-stagger: Stagger value for child elements
 - twk-aos-marker: Enable GSAP markers for debugging
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+### MIT License Highlights
+- Commercial use allowed
+- Modifications permitted
+- Distribution allowed
+- Private use allowed
+- No warranty provided
