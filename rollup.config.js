@@ -11,11 +11,12 @@ export default {
             format: 'esm',
             exports: 'named',
             globals: {
-                gsap: 'gsap'
+                gsap: 'gsap',
+                'gsap/ScrollTrigger': 'ScrollTrigger'
             }
         }
     ],
-    external: ['gsap'],
+    external: ['gsap', 'gsap/ScrollTrigger'],
     plugins: [
         postcss({
             extract: true,

@@ -1,5 +1,12 @@
+/*!
+ * TWK Scroll Animations
+ * 
+ * A GSAP-powered scroll animations library that makes it easy to add scroll-triggered animations to your website.
+ * 
+ * @author: TWK Media
+ */
 import gsap from 'gsap'
-import ScrollTrigger from 'gsap/ScrollTrigger'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { initializeEffects, gsapEffects } from './effects'
 import './global.css';
 
