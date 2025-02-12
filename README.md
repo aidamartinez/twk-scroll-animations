@@ -21,19 +21,28 @@ const scrollAnimations = new twkScrollAnimations()
 
 // Initialize with optional custom breakpoints
 const scrollAnimations = new twkScrollAnimations({
-screens: {
-xs: '480px',
-sm: '640px',
-md: '768px',
-lg: '1024px',
-xl: '1280px',
-'2xl': '1536px'
-}
+    screens: {
+        xs: '480px',
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+        '2xl': '1536px'
+    }
 });
 
+
 // In your HTML
-<div twk-aos="fade-up" twk-aos-duration="800" twk-aos-delay="200">
-Animated content
+<div twk-aos="fade-up">
+Animated content: fade-up on all screens with default duration.
+</div>
+
+<div twk-aos="fade-up" twk-aos-duration="800" twk-aos-delay="200" twk-aos-ease="power2.inOut">
+Animated content: with duration, delay and ease.
+</div>
+
+<div twk-aos="fade-right" twk-aos-xl="fade-left">
+Animated content: fade-left on XL screens and up, fade-right on smaller screens.
 </div>
 ```
 
